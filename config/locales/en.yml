@@ -1358,6 +1358,7 @@ en:
       If you pasted the web address, check you copied the entire address.
     title: Page not found
   page_conditions:
+    branch_condition_description: "%{answer_value} go to %{goto_page_question_text}"
     condition_answer_value_text: "“%{answer_value}”"
     condition_answer_value_text_with_errors: "[Answer not selected]"
     condition_check_page_text: "“%{check_page_question_text}”"
@@ -1376,10 +1377,12 @@ en:
     end_of_form: End of form
     exit_page: Add an exit page
     exit_page_label: An ‘exit page’ to leave the form
+    if_answer_is: 'If the answer is:'
     none_of_the_above: None of the above
     route: Route
     secondary_skip_description: After %{check_page_question_text} go to %{goto_page_question_text}
     skip_condition_route_page_text: "%{route_page_question_number}, “%{route_page_question_text}”"
+    unconditional_description: Go to %{goto_page_question_text}
   page_route_card:
     any_other_answer: Route for any other answer
     conditional_answer_value: "%{answer_value}"
